@@ -5,3 +5,5 @@ def convert_temperature(value, unit):
         return (value - 32) * 5/9
     else:
         print("Salah ketik unit suhu ANDA, harus antara 'C' dan 'F'")
+
+input_value = float(input("Masukkan nilai suhu: "))
