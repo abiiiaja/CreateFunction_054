@@ -7,3 +7,4 @@ def convert_temperature(value, unit):
         print("Salah ketik unit suhu ANDA, harus antara 'C' dan 'F'")
 
 input_value = float(input("Masukkan nilai suhu: "))
+input_unit = input("Masukkan unit suhu: ")
