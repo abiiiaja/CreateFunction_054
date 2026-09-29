@@ -8,3 +8,10 @@ def convert_temperature(value, unit):
 
 input_value = float(input("Masukkan nilai suhu: "))
 input_unit = input("Masukkan unit suhu: ")
+konversi = convert_temperature(input_value, input_unit)
+if input_unit.upper() == 'C':
+    print(f"{input_value}°C = {konversi:.2f}°F")
+elif input_unit.upper() == 'F':
+    print(f"{input_value}°F = {konversi:.2f}°C")
+else:
+    print("Satuan tidak dikenal")
